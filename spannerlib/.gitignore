@@ -1,8 +1,10 @@
 spannerlib.h
 spannerlib.so
+spannerlib.dylib
+spannerlib.dll
 grpc_server
+grpc_server.exe
 vendor/bundle
-shared/
 *.gem
 .DS_Store
 *.swp
