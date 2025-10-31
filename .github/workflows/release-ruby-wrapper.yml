@@ -79,7 +79,7 @@ jobs:
 
   publish:
     name: Package and Publish Gem
-    # This job runs only after all 'build-shared-library-binaries' jobs have succeeded
+    # This job runs only after all 'build-shared-library-binaries' job has completed
     needs: build-shared-library-binaries
     runs-on: ubuntu-latest
 
